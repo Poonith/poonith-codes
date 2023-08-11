@@ -1,0 +1,99 @@
+/* External CSS style file */
+
+body {
+  font-family: 'trebuchet ms', sans-serif;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+  padding: 20px;
+  color: #fff;
+  background: url('logo.png') no-repeat center center/cover;
+  position: relative;
+  width: 97.25vw;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+.text-container {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 3em;
+  font-weight: 400;
+  text-align: center;
+  background: -webkit-linear-gradient(45deg, #ff0000, #d1db40);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Navigation */
+.topnav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px 0;
+  width: 100vw;
+}
+
+.topnav a {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.topnav a:hover {
+  color: #ddd;
+}
+
+/* Content */
+.content {
+  background-color: #98b0c2b0;
+  padding: 10px;
+  overflow:hidden;
+}
+
+.test {
+  background-color: #fdfeff;
+
+}
+
+/* Footer */
+.footer {
+  box-sizing: border-box;
+  width: 100vw;
+  background-color: #262626;
+  padding: 10px;
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 0.9em;
+  border-top: 1px solid #ddd;
+}
+
+
+
